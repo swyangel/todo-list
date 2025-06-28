@@ -56,11 +56,7 @@ def remover_tarefa(tarefas, indice):
         print("\n❌ Índice inválido. Por favor, escolha um número da lista.")
         print("\n❌ Entrada inválida. Por favor, digite um NÚMERO para a tarefa.")
         
-        def editar_descricao_tarefa(tarefas):
-    """
-    Permite ao usuário editar a descrição de uma tarefa existente
-    com base no seu índice na lista.
-    """
+def editar_descricao_tarefa(tarefas):
     if not tarefas:
         print("\n⚠️ Nenhuma tarefa na lista para editar.")
         return
@@ -131,7 +127,7 @@ def main():
             break
         else:
             print("\n❌ Opção inválida. Por favor, tente novamente.")
-
+            
 if __name__ == "__main__":
     main()
 if __name__ == "__main__":
